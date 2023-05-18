@@ -25,9 +25,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.detailbook.DetailBookActivity" />
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.selectdrink.SelectDrinkActivity" />
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.order.OrderActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.detailbook.DetailBookActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.selectdrink.SelectDrinkActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.order.OrderActivity" />
         <activity android:name=".ui.login.LoginActivity"/>
 
         <activity android:name=".ui.SplashActivity"
@@ -39,9 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.mergebook.MergeBookActivity" />
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.employee.DetailEmployeeActivity" />
-        <activity android:name="com.donghh.quanlynhahangdouong.ui.employee.AddEmployeeActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.mergebook.MergeBookActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.employee.DetailEmployeeActivity" />
+        <activity android:name="com.sinhle.restaurantapp.ui.employee.AddEmployeeActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

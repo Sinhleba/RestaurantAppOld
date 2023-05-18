@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.donghh.quanlynhahangdouong.ui.home.BookFragment"
+        android:name="com.sinhle.restaurantapp.ui.home.BookFragment"
         android:label="@string/title_book"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.donghh.quanlynhahangdouong.ui.drink.DrinkFragment"
+        android:name="com.sinhle.restaurantapp.ui.drink.DrinkFragment"
         android:label="@string/title_menu"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.donghh.quanlynhahangdouong.ui.statistic.StatisticFragment"
+        android:name="com.sinhle.restaurantapp.ui.statistic.StatisticFragment"
         android:label="@string/title_statistical"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

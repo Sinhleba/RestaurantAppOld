@@ -18,7 +18,7 @@
     <string name="print_order">Xuất hóa đơn</string>
     <string name="id_bill">Mã hóa đơn: %s</string>
     <string name="not_user_name">Tài khoản không được để trống</string>
-    <string name="not_password">Mật khẩu trống</string>
+    <string name="not_password">Vui lòng nhập mật khẩu</string>
     <string name="user_name">Tài khoản</string>
     <string name="password">Mật khẩu</string>
     <string name="login">Đăng nhập</string>
