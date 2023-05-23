@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             menu.add(Menu.NONE, MENU_ITEM_ID_FIVE, Menu.NONE, getString(R.string.setting))
                     .setIcon(R.drawable.ic_baseline_settings_24);
 
-        }else {
+        }else{
             listFragment.add(BookFragment.newInstance());
             listFragment.add(SettingFragment.newInstance());
             menu.add(Menu.NONE, MENU_ITEM_ID_ONE, Menu.NONE, getString(R.string.title_book))
@@ -106,13 +106,13 @@ public class MainActivity extends AppCompatActivity {
             databaseHandler.addBook(new Book());
             databaseHandler.addBook(new Book());
             //đồ uống
-            databaseHandler.addDrink(new Drink("Trà đào cam sả",0,40000));
-            databaseHandler.addDrink(new Drink("Trà sen vàng",0,50000));
-            databaseHandler.addDrink(new Drink("Trà vải",0,30000));
-            databaseHandler.addDrink(new Drink("Trà long nhãn hạt chia",0,40000));
-            databaseHandler.addDrink(new Drink("Trà Sữa Mắc Ca Trân Châu",0,50000));
-            databaseHandler.addDrink(new Drink("Hồng Trà Latte Macchiato",0,30000));
-            databaseHandler.addDrink(new Drink("Hồng Trà Sữa Nóng",0,50000));
+            databaseHandler.addDrink(new Drink("Trà sữa truyền thống",0,40000));
+            databaseHandler.addDrink(new Drink("Cà phê đen",0,50000));
+            databaseHandler.addDrink(new Drink("Cà phê sữa",0,30000));
+            databaseHandler.addDrink(new Drink("Trà sữa Thái xanh",0,40000));
+            databaseHandler.addDrink(new Drink("Trà sữa trân châu đường đen",0,50000));
+            databaseHandler.addDrink(new Drink("Hồng Trà",0,30000));
+            databaseHandler.addDrink(new Drink("Cappuccino",0,50000));
 
         }catch(Exception e){
             e.printStackTrace();

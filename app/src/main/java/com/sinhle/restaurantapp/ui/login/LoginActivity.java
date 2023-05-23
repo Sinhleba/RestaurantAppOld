@@ -18,9 +18,9 @@ public class LoginActivity extends AppCompatActivity {
     ActivityLoginBinding binding;
 
 
-    String employee = "employee";
-    String manager = "manager";
-    String password = "1234@Abc";
+    String employee = "Nhanvien1";
+    String manager = "Lebasinh5320";
+    String password = "19200456";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

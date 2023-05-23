@@ -54,10 +54,9 @@ public class DetailBookActivity extends AppCompatActivity {
         book = getIntent().getParcelableExtra(DetailBook);
         binding.tvBook.setText("Bàn " + book.getId());
         initRecyclerListDrink();
-
         initListener();
     }
-
+    // Xong hàm này
     private void initListener() {
         binding.ivBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,7 +64,7 @@ public class DetailBookActivity extends AppCompatActivity {
                 finish();
             }
         });
-
+    // Xong hàm này
         binding.flbAddDrink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -186,6 +185,7 @@ public class DetailBookActivity extends AppCompatActivity {
         }
     }
 
+    // Xong hàm này
     private void checkListDrink(ArrayList<Drink> listDrink) {
         if (listDrink.size() > 0) {
             binding.rvDrink.setVisibility(View.VISIBLE);

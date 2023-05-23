@@ -21,11 +21,13 @@ class DatabaseHandler extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "DrinkManager";
     public static final int DATABASE_VERSION = 1;
 
+    // nhân viên
     private static final String TABLE_STUDENT = "Students";
     private static final String KEY_STUDENT_CODE = "StudentCode";
     private static final String KEY_STUDENT_NAME = "StudentName";
     private static final String KEY_STUDENT_BIRTHDAY = "StudentBirthday";
     private static final String KEY_STUDENT_PHONE = "StudentPhone";
+
     //đồ uống
     private static final String TABLE_DRINK = "DRINK";
     private static final String KEY_ID = "Id";

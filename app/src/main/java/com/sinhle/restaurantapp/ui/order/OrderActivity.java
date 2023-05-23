@@ -173,7 +173,7 @@ public class OrderActivity extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Something wrong: " + e.toString(), Toast.LENGTH_LONG).show();
-            }////////////////////
+            }
 
             // close the document
             document.close();

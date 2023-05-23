@@ -6,20 +6,29 @@
     android:layout_height="match_parent"
     android:background="@drawable/backgroundapp">
 
-    <LinearLayout
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="118dp"
+        android:src="@drawable/icon_app"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736"
+        tools:ignore="MissingConstraints" />
 
+    <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="80dp"
-        android:layout_marginTop="148dp"
+        android:layout_margin="30dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints">
-
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilUserName"
@@ -64,11 +73,11 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/bg_radius_blue"
             android:gravity="center"
             android:text="@string/login"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
     </LinearLayout>

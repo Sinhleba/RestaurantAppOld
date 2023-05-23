@@ -93,7 +93,6 @@ public class DrinkBookAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         }
 
     }
-
     class RecyclerViewViewHolder extends RecyclerView.ViewHolder {
         ItemDrinkBookBinding binding;
 
@@ -104,6 +103,4 @@ public class DrinkBookAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
         }
     }
-
-
 }
