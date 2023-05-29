@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuanLyNhaHangDoUong</string>
+    <string name="app_name">RestaurantApp</string>
     <string name="title_book">Đặt bàn</string>
     <string name="title_menu">Đồ uống</string>
     <string name="title_statistical">Thống kê</string>
